@@ -1,0 +1,16 @@
+# Ignorar archivos de configuracion de la base de datos
+src/resources/database.properties
+
+# Ignorar archivos temporales y de compilacion de NetBeans
+nbproject/private/ # Archivos privados de configuracion de NetBeans
+build/             # Carpeta de compilacion
+dist/              # Carpeta de distribucion
+
+# Ignorar archivos compilados
+*.jar
+*.class
+
+# Ignorar archivos de logs, temporales o de backup
+*.log
+*.bak
+*.swp
